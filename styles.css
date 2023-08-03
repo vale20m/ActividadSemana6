@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Victor+Mono:wght@100&display=swap');
+
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .image{
-    border: 5px solid green;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
     height: 400px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .link-button {
@@ -14,7 +21,7 @@ body {
     outline: none;
     cursor: pointer;
     font-size: 14px;
-    line-height: 1;
+    line-height: 4;
     border-radius: 500px;
     transition-property: background-color,border-color,color,box-shadow,filter;
     transition-duration: .3s;
@@ -25,7 +32,7 @@ body {
     white-space: normal;
     font-weight: 700;
     text-align: center;
-    padding: 17px 48px;
+    padding: 15px 80px;
     color: #fff;
     background-color: #1ED760;
     height: 48px;
@@ -35,4 +42,3 @@ body {
     }
 
 }
-
